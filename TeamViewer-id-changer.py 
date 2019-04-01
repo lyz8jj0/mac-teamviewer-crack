@@ -32,8 +32,8 @@ else:
     print('Can not find user name. Run this script via sudo from regular user')
     sys.exit();
 
-HOMEDIRLIB = '/Users/' + USERNAME  + '/library/preferences/'
-GLOBALLIB  =  '/library/preferences/'
+HOMEDIRLIB = '/Users/' + USERNAME  + '/Library/Preferences/'
+GLOBALLIB  =  '/Library/Preferences/'
 
 CONFIGS = []
 
